@@ -23,7 +23,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   library = load_library(path)
-  libary[:get_emoticon]emoticon
+  libary[:get_emoticon][emoticon]
 end
 
 def get_english_meaning
