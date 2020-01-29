@@ -6,14 +6,6 @@ def load_library(path)
 
   
   
-  
-  #  sort_library = library.reduce({}) do |memo, (keys, values)|
-  #  memo[:get_meaning] = k
-  #  memo[:get_emoticon] = v
-  #  memo
-  #  end 
-  #  sort_library
-
 
 end
 
