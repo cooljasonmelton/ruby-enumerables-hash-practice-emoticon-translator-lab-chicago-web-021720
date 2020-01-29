@@ -22,8 +22,7 @@ sorted_library = {
 end
 
 def get_japanese_emoticon(path, emoticon)
-  library = YAML.load_file(path)
-  emoticon
+  library = load_library(path)
   
 end
 
