@@ -33,7 +33,7 @@ end
 
 def get_english_meaning(path, emoticon)
   library = load_library(path)
-  library[]
+  library[:get_meaning][emoticon]
 
   
 
