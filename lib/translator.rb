@@ -10,7 +10,7 @@ def load_library(path)
 end 
   
   emoticon = library.reduce({}) do |memo, (keys, values)| 
-  memo
+  memo[values[0]] = values[1]
   memo
 end 
   
